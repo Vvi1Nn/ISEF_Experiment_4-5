@@ -1,0 +1,8 @@
+prefix=/home/zwh/experiment_3/install
+
+Name: learning_api
+Description: Description of learning_api
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

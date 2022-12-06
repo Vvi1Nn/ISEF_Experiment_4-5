@@ -1,0 +1,8 @@
+background_b: 255
+background_g: 86
+background_r: 69
+rosdistro: 'noetic'
+roslaunch:
+  uris: {host_zwh_vpc__37823: 'http://zwh-vpc:37823/'}
+rosversion: '1.15.14'
+run_id: 40520bbc-72ee-11ed-8666-3dd5639c03d6

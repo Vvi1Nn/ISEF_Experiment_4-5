@@ -1,0 +1,8 @@
+<launch>
+    <param name = "A" type = "int" value = "1234" />
+    <node pkg="turtlesim" type="turtlesim_node"     name="myTurtle" output="screen">
+        <param name = "B" type = "int" value = "4321" />
+    </node>
+    <node pkg="turtlesim" type="turtle_teleop_key"  name="myTurtleControl" output="screen" />
+</launch>
+

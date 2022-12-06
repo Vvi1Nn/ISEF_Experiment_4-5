@@ -1,0 +1,22 @@
+A: 555
+B: 666
+C: 777
+myTurtle:
+  A: 555
+  B: 666
+  C: 777
+  background_b: 255
+  background_g: 86
+  background_r: 69
+rosdistro: 'noetic
+
+  '
+roslaunch:
+  uris:
+    host_zwh_vpc__33441: http://zwh-vpc:33441/
+    host_zwh_vpc__37441: http://zwh-vpc:37441/
+    host_zwh_vpc__38593: http://zwh-vpc:38593/
+rosversion: '1.15.14
+
+  '
+run_id: 36d5d126-7588-11ed-8977-5fbf4e572909

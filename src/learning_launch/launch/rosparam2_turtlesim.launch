@@ -1,0 +1,5 @@
+<launch>    
+    <rosparam command="dump" file="$(find learning_launch)/launch/output_turtlesim.yaml" />
+
+    <rosparam command="delete" param="A" />
+</launch>
