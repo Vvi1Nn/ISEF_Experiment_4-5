@@ -10,7 +10,7 @@ All of the feature packages created in class are in the `src` folder, and each f
 2. `learning_api`: For programming of implementation of ROS API.
 3. `learning_file`: For programming of head and source file in ROS.
 
-## 5. Management Methods for the Operation of ROS System (Chapter 5)
+## Management Methods for the Operation of ROS System (Chapter 5)
 1. `learning_metapackage`: For creating method of metapackage in ROS.
 2. `learning_launch`: For programming and implementation of launch files.
 3. `learning_node_remapping`: For remapping method of node.
