@@ -136,6 +136,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/zwh/experiment_3/build/learning_file/cmake_install.cmake")
   include("/home/zwh/experiment_3/build/learning_parameter/cmake_install.cmake")
   include("/home/zwh/experiment_3/build/learning_launch/cmake_install.cmake")
+  include("/home/zwh/experiment_3/build/learning_node_remapping/cmake_install.cmake")
+  include("/home/zwh/experiment_3/build/learning_param_remapping/cmake_install.cmake")
+  include("/home/zwh/experiment_3/build/learning_topic_remapping/cmake_install.cmake")
 
 endif()
 

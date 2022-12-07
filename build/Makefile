@@ -804,6 +804,58 @@ geometry_msgs_generate_messages_py/fast:
 	$(MAKE) -f learning_launch/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make learning_launch/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
+#=============================================================================
+# Target rules for targets named namespace
+
+# Build rule for target.
+namespace: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 namespace
+.PHONY : namespace
+
+# fast build rule for target.
+namespace/fast:
+	$(MAKE) -f learning_node_remapping/CMakeFiles/namespace.dir/build.make learning_node_remapping/CMakeFiles/namespace.dir/build
+.PHONY : namespace/fast
+
+#=============================================================================
+# Target rules for targets named remap
+
+# Build rule for target.
+remap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 remap
+.PHONY : remap
+
+# fast build rule for target.
+remap/fast:
+	$(MAKE) -f learning_node_remapping/CMakeFiles/remap.dir/build.make learning_node_remapping/CMakeFiles/remap.dir/build
+.PHONY : remap/fast
+
+#=============================================================================
+# Target rules for targets named param_test
+
+# Build rule for target.
+param_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 param_test
+.PHONY : param_test
+
+# fast build rule for target.
+param_test/fast:
+	$(MAKE) -f learning_param_remapping/CMakeFiles/param_test.dir/build.make learning_param_remapping/CMakeFiles/param_test.dir/build
+.PHONY : param_test/fast
+
+#=============================================================================
+# Target rules for targets named remap_test
+
+# Build rule for target.
+remap_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 remap_test
+.PHONY : remap_test
+
+# fast build rule for target.
+remap_test/fast:
+	$(MAKE) -f learning_topic_remapping/CMakeFiles/remap_test.dir/build.make learning_topic_remapping/CMakeFiles/remap_test.dir/build
+.PHONY : remap_test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -866,6 +918,10 @@ help:
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... namespace"
+	@echo "... remap"
+	@echo "... param_test"
+	@echo "... remap_test"
 .PHONY : help
 
 
